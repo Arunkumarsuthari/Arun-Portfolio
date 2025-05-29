@@ -207,7 +207,7 @@ const ExperienceInfo = [
   },
   {
     role: "Summer Intern",
-    company: "NIT, Warangal",
+    company: "NIT Warangal",
     date: "May 2022 - July 2023",
     desc: " Developed an algorithmic solution using MATLAB for optimizing support structures in 3D printing processes. The primary objectives were to minimize material usage and reduce print time, enhancing the efficiency of the overall printing process.",
     skills: ["MATLAB", "RRT", "PRM", "Dijkstra's Algorithm", "Geometry"],
@@ -224,14 +224,14 @@ const EducationInfo = [
   },
   {
     role: "Intermediate (XI and XII)",
-    company: "State Board of Intermediate Education, Telangana",
+    company: "State Board of Intermediate Education Telangana",
     date: "June 2019 - April 2021",
     desc: " Narayana Junior College, Medchal, Hyderabad",
     cgpa_or_percentage: "98/100",
   },
   {
     role: "Secondary School Certificate(SSC)",
-    company: "State Board of Education",
+    company: "State Board of Education Telangana",
     date: "April 2018 - May 2019",
     desc: "Krishnaveni High School, Khanapur",
     cgpa_or_percentage: "9.8/10",
