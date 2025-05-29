@@ -149,25 +149,41 @@ const SkillInfo = [
     title: "Backend",
     skills: [
       "Django",
-      "PgAdmin",
       "Django Rest Framework",
       "MySQL",
       "LLM Integration",
-      "Firebase",
+      "Spring Boot",
       "PostgresSQL",
     ],
   },
   {
     title: "Languages",
-    skills: ["C++", "Python", "JavaScript", "TypeScript"],
+    skills: ["C++", "Python", "JavaScript", "TypeScript", "Java"],
   },
   {
     title: "Tools",
-    skills: ["Git", "Github", "VS Code", "Thunder Client", "Burp Suite"],
+    skills: [
+      "Git",
+      "Github",
+      "VS Code",
+      "Thunder Client",
+      "Burp Suite",
+      "IntellijIdea",
+      "Postman",
+    ],
   },
   {
     title: "Courses",
-    skills: ["DBMS", "DSA", "OS", "CN", "CA", "Problem Solving"],
+    skills: [
+      "Data Structures and Algorithms",
+      "Database Management Systems",
+      "Problem Solving and Computer Programming",
+      "Computer Networks",
+      "Computer Architecture",
+      "Software Engineering Principles",
+      "Operating Systems",
+      "Pattern Recognition and Machine Learning",
+    ],
   },
 ];
 const socialLinks = [
