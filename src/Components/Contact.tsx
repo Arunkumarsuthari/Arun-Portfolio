@@ -6,6 +6,7 @@ import { validateForm } from "./Validation";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../Firebase";
 import toast from "react-hot-toast";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
   const form = {
@@ -35,6 +36,25 @@ const Contact = () => {
     if (valid) {
       setFormData(form);
       toast.success("Submitted Successfully!", { duration: 4000 });
+
+      // Send email
+      emailjs
+        .send(
+          "service_yvs5zpp",
+          "template_akfogns",
+          formData,
+          "OHedS-jKHrNTklIjQ"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+
+      // Optionally, keep saving to Firestore if you want
       await addDoc(collection(db, "portfolio"), formData);
     } else {
       toast.error("Some error occurred!", { duration: 4000 });

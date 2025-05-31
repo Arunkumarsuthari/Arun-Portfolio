@@ -6,8 +6,10 @@ import {
   useMatches,
 } from "@mantine/core";
 import { IconArrowBigDownLineFilled } from "@tabler/icons-react";
-import { Document, Page } from "react-pdf";
+// import { Document, Page } from "react-pdf";
 import { Info } from "../User";
+import { Document, Page, pdfjs } from "react-pdf";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const ResumeViewer = (props: any) => {
   const btn = useMatches({

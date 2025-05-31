@@ -82,3 +82,33 @@
     border-color: #64FFDA;
     color: #64FFDA;
 }
+
+
+/* Place this in src/index.css or src/App.css */
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-16px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes neon-glow {
+  0%, 100% {
+    box-shadow: 0 0 32px 8px #64ffda, 0 0 64px 16px #64ffda33;
+  }
+  50% {
+    box-shadow: 0 0 48px 16px #64ffda, 0 0 96px 32px #64ffda55;
+  }
+}
+
+.neon-glow {
+  box-shadow: 0 0 32px 8px #64ffda, 0 0 64px 16px #64ffda33;
+  animation: neon-glow 2s ease-in-out infinite;
+}

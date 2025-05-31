@@ -35,9 +35,9 @@ const About = () => {
           refresh
         />
         <div className="h-fit flex justify-center items-center rounded-full bs:mr-10 w-fit">
-          <NeonGradientCard className="w-[325px] h-[325px] lg-mx:w-64 lg-mx:h-64 xsm-mx:w-56 xsm-mx:h-56 items-center justify-center text-center">
+          <NeonGradientCard className="w-[325px] h-[325px] lg-mx:w-64 lg-mx:h-64 xsm-mx:w-56 xsm-mx:h-56 items-center justify-center text-center neon-glow">
             <img
-              className="w-full h-full rounded-full"
+              className="w-full h-full rounded-full animate-float border-4 border-primaryColor shadow-lg"
               src={profile}
               alt="profile"
             />
@@ -91,3 +91,4 @@ const About = () => {
   );
 };
 export default About;
+// import React, { useEffect, useState } from "react";
